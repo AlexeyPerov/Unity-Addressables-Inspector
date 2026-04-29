@@ -1,4 +1,8 @@
-# Addressables Inspector
+# Addressables Inspector ![unity](https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white)
+
+![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 A Unity Editor tool for analyzing Unity Addressables build layouts. Loads `BuildLayout.txt` files and provides detailed analysis of bundles, groups, assets, duplicates, labels, and cross-build comparisons to help maintain bundle health and catch performance issues early.
 
@@ -120,10 +124,14 @@ Bundles are classified as "remote" or "built-in" based on substring patterns app
 1. Using Unity's Package Manager via link https://github.com/AlexeyPerov/Unity-Addressables-Inspector.git
 2. You can also just copy and paste all files inside Editor folder
 
+---
+
 ## Contributions
 
-Feel free to [report bugs, request new features](https://github.com/AlexeyPerov/Unity-Dependencies-Hunter/issues)
-or to [contribute](https://github.com/AlexeyPerov/Unity-Dependencies-Hunter/pulls) to this project!
+Feel free to report bugs, request new features
+or to contribute to this project!
+
+---
 
 ## Other tools
 
@@ -143,9 +151,11 @@ or to [contribute](https://github.com/AlexeyPerov/Unity-Dependencies-Hunter/pull
 
 - To analyze your materials and renderers see [Materials-Hunter](https://github.com/AlexeyPerov/Unity-Materials-Hunter).
 
+##### Asset Inspector
+
+- To analyze asset dependencies [Asset-Inspector](https://github.com/AlexeyPerov/Unity-Asset-Inspector).
+
 ##### Editor Coroutines
 
 - Unity Editor Coroutines alternative version [Lite-Editor-Coroutines](https://github.com/AlexeyPerov/Unity-Lite-Editor-Coroutines).
 - Simplified and compact version [Pocket-Editor-Coroutines](https://github.com/AlexeyPerov/Unity-Pocket-Editor-Coroutines).
-
-
