@@ -8,7 +8,7 @@ namespace AddressablesInspector
 {
     public class AddressablesInspectorWindow : EditorWindow
     {
-        [MenuItem("Tools/AddressablesInspector")]
+        [MenuItem("Tools/Addressables Inspector")]
         public static void LaunchAddressablesInspectorWindow()
         {
             GetWindow<AddressablesInspectorWindow>("Addressables Inspector");
